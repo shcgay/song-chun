@@ -1,0 +1,19 @@
+tar -cvf test.tar 
+
+
+
+tar -xvf test.tar
+
+
+tar -zcvf test.tar.gz     文件
+
+
+
+tar -zxvf test.tar.gz    文件
+
+
+tar -jcvf name/test.tar.bzi2   文件 
+
+
+
+tar -jxvf name/test.tar.bzi2   文件
