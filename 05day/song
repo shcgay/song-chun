@@ -1,0 +1,34 @@
+本地目录复制到远程：
+                  1.scp -r foldername remotehostip:remotefolder
+
+本地文件复制到远程                                                  1.  scf filename remotehostip:remotefile
+
+
+远程文件复制到本地
+
+
+scp remotehostip:remotefile filename
+
+scp              
+
+远程目录复制到本地
+
+
+scp -r remotehostip:remotefolder foldername
+                                            
+ scp -r 远程主机IP： 远程文件夹 文件夹名字
+
+
+
+
+
+sudo apt-get install openssh-server
+
+
+
+ssh name@IP
+
+远程登录
+
+
+                          

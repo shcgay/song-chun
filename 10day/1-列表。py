@@ -1,0 +1,6 @@
+names = ["song","jia","chuang","fang"]
+names[0]
+names[1]
+names[2]
+names[3]
+print
