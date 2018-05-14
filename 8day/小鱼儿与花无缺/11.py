@@ -1,0 +1,2 @@
+ set mouse=vi
+:i

@@ -17,29 +17,6 @@ class pixieshoseFactory(shoseFactory):
 class qiuxieshoseFactory(shoseFactory):
 	def make_shose(self):
 		return qiuxie()
-def anli_call():
-	factory = pixieshoseFactory()
-	for i in range(4):
-		time.sleep(5)
-		shose = factory.make_shose()
-		shose.walk()
-def hengda_call():
-	factory = qiuxieshoseFactory()
-	for i in range(3):
-		time.sleep(2)
-		shose = factory.make_shose()
-		shose.walk()
-if __name__ == "__main__":
-	anli_call()
-	hengda_call()
-
-
-
-
-
-
-
-
 class shoseFactory():
 	def make_shose(self,name):
 		if name == "qiuxie":
@@ -48,7 +25,6 @@ class shoseFactory():
 			return pixie()
 		else:
 			None
-
 def anli_call():
 	factory = shoseFactory()
 	for i in range(4):
